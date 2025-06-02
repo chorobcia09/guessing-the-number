@@ -34,6 +34,6 @@ function check() {
   } else {
     answer.textContent = "You guessed it!";
     answer.style.color = "green";
-    setTimeout(() => location.reload(), 1000);
+    setTimeout(() => location.reload(), 2000);
   }
 }
