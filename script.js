@@ -26,10 +26,10 @@ function check() {
   }
 
   if (userGuess < randomValue) {
-    answer.textContent = "The number is higher";
+    answer.textContent = "The number is higher!";
     answer.style.color = "red";
   } else if (userGuess > randomValue) {
-    answer.textContent = "The number is lower";
+    answer.textContent = "The number is lower!";
     answer.style.color = "orange";
   } else {
     answer.textContent = "You guessed it!";
